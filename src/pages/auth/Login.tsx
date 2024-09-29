@@ -1,9 +1,10 @@
-import cn from '@assets/css/Auth.module.css';
+import { AuthLogin } from '@components/auth/AuthLogin';
+
 export const Login = () => {
   return (
     <>
-        <div className={cn['ph-auth-cnt']}>
-            <div>my RouterProvider</div>
+        <div className="d-flex align-items-center justify-content-center">
+          <AuthLogin/>
         </div>
     </>
   );

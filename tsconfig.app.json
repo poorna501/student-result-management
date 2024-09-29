@@ -18,7 +18,13 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": "./",  // Base path for resolving non-relative module names
+    "paths": {
+      "@components/*": ["src/components/*"]  // Alias mapping
+    }
+    
   },
   "include": ["src"]
 }

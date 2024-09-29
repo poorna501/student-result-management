@@ -1,9 +1,0 @@
-.ph-auth-cnt {
-    display: flex;
-    background-color: var(--ph-light);
-    padding: 50px;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-    width: 880px;
-}
